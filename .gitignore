@@ -1,0 +1,24 @@
+# Dependências
+/node_modules/
+
+# Arquivos que podem conter informações sensíveis
+.env
+
+# Arquivos de lock podem ser omitidos se a consistência entre ambientes não for uma preocupação
+yarn.lock
+package-lock.json
+
+# Arquivos de cache do npm
+.npm
+
+# Arquivos de log
+*.log
+npm-debug.log*
+
+# Diretórios específicos do editor (se aplicável)
+/.vscode/
+/.idea/
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
