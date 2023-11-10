@@ -22,5 +22,11 @@ module.exports = {
     ecmaVersion: 'latest',
   },
   rules: {
+    'class-methods-use-this': 'off',
+    'linebreak-style': 'off',
+    'space-before-blocks': 'off',
+    'indent': 'off',
+    'padded-blocks': 'off',
+    'quote-props': 'off',
   },
 };
