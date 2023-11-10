@@ -1,10 +1,8 @@
 const express = require('express');
 
+const routes = require('./routes');
+
 const app = express();
+app.use(routes);
 
-app.get('/', (request,response) =>{
-    response.send('oi turu?')
-})
-
-
-app.listen(3000, () => { console.log ('The server 3000 has started')})
+app.listen(3000, () => { console.log ('The server 3000 has started')});
