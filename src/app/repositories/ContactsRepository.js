@@ -50,14 +50,13 @@ class ContactsRepository {
                 name,
                 email,
                 phone,
-                category_id: category_id || v4(),
+                category_id: category_id || v4(), // Gera um novo se não for fornecido.
             };
 
             contacts.push(newContact);
             resolve(newContact);
         });
     }
-    
 }
 
 module.exports = new ContactsRepository();
