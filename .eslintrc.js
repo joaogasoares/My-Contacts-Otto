@@ -28,5 +28,6 @@ module.exports = {
     'indent': 'off',
     'padded-blocks': 'off',
     'quote-props': 'off',
+    'consistent-return': 'off',
   },
 };
