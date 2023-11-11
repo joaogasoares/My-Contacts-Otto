@@ -29,5 +29,6 @@ module.exports = {
     'padded-blocks': 'off',
     'quote-props': 'off',
     'consistent-return': 'off',
+    'camelcase': 'off',
   },
 };
