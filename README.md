@@ -56,8 +56,6 @@ Para testar as operações CRUD da sua API, você pode usar o Insomnia ou qualqu
 4. **Delete (Excluir):**
    - Faça uma requisição DELETE para `http://localhost:3000/contacts/[id-do-usuario]`.
 
-Lembre-se de substituir `[id-do-usuario]` pelos valores correspondentes do seu projeto.
-
 ### 🛠️ Construído com
 
 - [Node.js](https://nodejs.org/) - Ambiente de execução para JavaScript.
